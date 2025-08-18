@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 03</title>
+</head>
+<body>
+    <h1>Exibindo número no menor para maior</h1>
+    <script>
+        let valor1 = prompt ("Digite o primeiro valor: ");
+        let valor2 = prompt ("Digite o segundo valor: ");
+
+        if(valor1 < valor2){
+            let i = valor1
+            while(valor1 <= valor2){
+                console.log(valor1)
+                valor1++
+            }
+        } else {
+            let i = valor2
+            while(valor2 <= valor1){
+                console.log(valor2)
+                valor2++
+            }
+        }
+    </script>
+</body>
+</html>
